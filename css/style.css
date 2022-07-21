@@ -14,3 +14,19 @@
 .container .description{
     opacity: .5;
 }
+.container .download{
+    padding: 0.75rem 1.5625rem;
+    margin-inline-end: 0.625rem;
+    border-radius:1.25rem;
+    border: none;
+    color: white;
+}
+.container .download:hover{
+    cursor: pointer;
+}
+.container .btn-ios{
+    background-color: hsl(171, 66%, 44%);
+}
+.container .btn-mac{
+    background-color: hsl(233, 100%, 69%);
+}
