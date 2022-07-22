@@ -48,3 +48,6 @@
     width:34.375rem;
     margin-inline-start: -20px;
 }
+.container .access-clipboard .description{
+    margin-block-end: 3.75rem;
+}
