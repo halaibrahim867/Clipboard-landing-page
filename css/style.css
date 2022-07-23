@@ -1,70 +1,124 @@
-.container{
+.container {
     background-image: url(../images/bg-header-desktop.png);
     background-repeat: no-repeat;
     text-align: center;
     font-family: 'Bai Jamjuree', sans-serif;
 }
-.container .history .head-logo{
+
+.container .header {
+    margin-block-start: 6.25rem;
+}
+
+.container .history .head-logo {
     width: 5rem;
     margin-block-start: 2.5rem;
 }
-.container h1 , h2, h3{
+
+.container h1,
+h2,
+h3 {
     opacity: .7;
 }
 
-.container .description{
+.container .description {
     opacity: .5;
 }
-.container .download{
+
+.container .download {
     padding: 0.75rem 1.5625rem;
     margin-inline-end: 0.625rem;
-    border-radius:1.25rem;
+    border-radius: 1.25rem;
     border: none;
     color: white;
 }
-.container .download:hover{
+
+.container .download:hover {
     cursor: pointer;
 }
-.container .btn-ios{
+
+.container .btn-ios {
     background-color: hsl(171, 66%, 44%);
 }
-.container .btn-mac{
+
+.container .btn-mac {
     background-color: hsl(233, 100%, 69%);
 }
-.container .track .track-snippet{
+
+.container .track .track-snippet {
     display: grid;
-    grid-template-columns: repeat(2,minmax( 18.75rem, 1fr));
+    grid-template-columns: repeat(2, minmax(18.75rem, 1fr));
     text-align: left;
-    
+
 }
-.container .track .track-snippet .des-track{
+
+.container .track .track-snippet .des-track {
     max-width: 18.75rem;
 }
-.container .track .track-snippet img{ 
-    width:34.375rem;
+
+.container .track .track-snippet img {
+    width: 34.375rem;
     margin-inline-start: -20px;
 }
-.container .access-clipboard .description{
+
+.container .access-clipboard .description {
     margin-block-end: 3.75rem;
 }
 
-.container  .logo-and-icons .icons-change{
+.container .logo-and-icons .icons-change {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 10px;
     margin-inline-start: 3.125rem;
     margin-block-start: 3.125rem;
 }
-.container  .logo-and-icons .icons-change .icon{
+
+.container .logo-and-icons .icons-change .icon {
     width: 21.875rem;
 }
-.container  .logo-and-icons .logo-change{
+
+.container .logo-and-icons .logo-change {
     display: grid;
-    grid-template-columns: repeat(5,1fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 10px;
-    margin-inline-start:3.125rem;
+    margin-inline-start: 3.125rem;
     margin-block-start: 3.125rem;
 }
-.container .ios-mac-clipboard{
-    margin-block-start: 6.25rem;
+
+.container .footer {
+    background-color: rgb(236, 236, 236);
+    display: grid;
+    grid-template-columns: 250px 1fr 250px;
+    align-items: center;
+    margin-block-start:6.25rem;
+    opacity: .9;
+}
+
+.container .footer .logo {
+    width: 60px;
+}
+
+.container .footer .footer-links {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    
+}
+
+.footer .contact {
+    color: black;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.container .footer .social-contact {
+    margin-inline-end: 35px;
+}
+
+.container .footer .social-icons i {
+    font-size: 30px;
+}
+.container .footer .contact:hover {
+    cursor: pointer;
+    color:  hsl(171, 66%, 44%) ;
+
 }
