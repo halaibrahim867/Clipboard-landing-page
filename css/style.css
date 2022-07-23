@@ -52,16 +52,19 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 10px;
-    margin-inline-start: 50px;
-    margin-block-start: 50px;
+    margin-inline-start: 3.125rem;
+    margin-block-start: 3.125rem;
 }
 .container  .logo-and-icons .icons-change .icon{
-    width: 350px;
+    width: 21.875rem;
 }
 .container  .logo-and-icons .logo-change{
     display: grid;
     grid-template-columns: repeat(5,1fr);
     gap: 10px;
-    margin-inline-start: 50px;
-    margin-block-start: 50px;
+    margin-inline-start:3.125rem;
+    margin-block-start: 3.125rem;
+}
+.container .ios-mac-clipboard{
+    margin-block-start: 6.25rem;
 }
