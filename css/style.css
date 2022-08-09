@@ -4,7 +4,12 @@
     text-align: center;
     font-family: 'Bai Jamjuree', sans-serif;
 }
-
+@media (max-width:772px){
+    .container{
+        margin-inline: auto;
+    }
+    
+}
 .container .header {
     margin-block-start: 6.25rem;
 }
@@ -35,7 +40,13 @@ h3 {
 .container .download:hover {
     cursor: pointer;
 }
-
+@media (max-width:772px) {
+    .container .download{
+        display: block;
+        margin-block-start: 20px;
+        margin-inline:auto;
+    }
+}
 .container .btn-ios {
     background-color: hsl(171, 66%, 44%);
 }
@@ -50,9 +61,13 @@ h3 {
     text-align: left;
 
 }
+.container .track .track-snippet .track-img{
 
+}
 .container .track .track-snippet .des-track {
     max-width: 18.75rem;
+    margin-inline: auto;
+    text-align: center;
 }
 
 .container .track .track-snippet img {
@@ -60,28 +75,69 @@ h3 {
     margin-inline-start: -20px;
 }
 
+@media (max-width:772px){
+    .container .track .track-snippet{
+        display:block;
+    }
+    .container .track .track-snippet img {
+        width:300px;
+        margin-inline-start: 0;
+    }
+    
+}
+@media (max-width:772px){
+    .container .history,
+    .container .track{
+        display: block;
+    }
+}
 .container .access-clipboard .description {
     margin-block-end: 3.75rem;
 }
-
+@media  (max-width:772px) {
+    .container .access-clipboard {
+        display: block;
+    }
+    .container .access-clipboard img{
+        width: 300px;
+    }
+}
 .container .logo-and-icons .icons-change {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
-    margin-inline-start: 3.125rem;
+    margin-inline-start: auto;
     margin-block-start: 3.125rem;
 }
 
-.container .logo-and-icons .icons-change .icon {
-    width: 21.875rem;
+@media (max-width:772px) {
+    .container .logo-and-icons .icons-change{
+        display: block;
+    }
+    .container .logo-and-icons .icons-change .icon{
+        width: 255px;
+        margin-block: 3rem;
+        margin-inline: auto;
+      
+    }
 }
-
 .container .logo-and-icons .logo-change {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 10px;
-    margin-inline-start: 3.125rem;
+    margin-inline-start: auto
     margin-block-start: 3.125rem;
+}
+
+@media (max-width:772px) {
+    .container .logo-and-icons .logo-change{
+        display: block;
+        margin-inline: auto;
+        text-align: center;
+    }
+    .container .logo-and-icons .logo-change div {
+        margin-block-end: 40px;
+    }
 }
 
 .container .footer {
@@ -91,6 +147,13 @@ h3 {
     align-items: center;
     margin-block-start:6.25rem;
     opacity: .9;
+}
+@media (max-width:772px) {
+    .container .footer{
+        display: block;
+        padding-top: 25px;
+
+    }
 }
 
 .container .footer .logo {
@@ -103,7 +166,12 @@ h3 {
     align-items: center;
     
 }
-
+@media (max-width:772px) {
+    .container .footer .footer-links {
+        display: block;
+    }
+    
+}
 .footer .contact {
     color: black;
     display: inline-block;
@@ -111,7 +179,9 @@ h3 {
 }
 
 .container .footer .social-contact {
-    margin-inline-end: 35px;
+    margin-inline-end: 15px;
+    margin-inline-start: 39px;
+    margin-block-start: 10px;
 }
 
 .container .footer .social-icons i {
@@ -121,4 +191,10 @@ h3 {
     cursor: pointer;
     color:  hsl(171, 66%, 44%) ;
 
+}
+@media (max-width:772px){
+    .container .small-width{
+        max-width: 295px;
+        margin-inline: auto;
+    }
 }
